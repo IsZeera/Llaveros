@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.headerBody{
+    display: flex;
+    background-color: rgba(237, 242, 255, 0.683);
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.logoHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoHeader img{
+    width: 150px;
+}
+
+.navListaHeader ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    padding-left: 30px;
+}
+
+.navListaHeader li{
+    list-style: none;
+}
+
+.navListaHeader a{
+    display: inline-block;
+    text-decoration: none;
+    color: #070707;
+    font-size: large;
+    position: relative;
+}
+
+.navListaHeader a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #070707;
+}
+
+.mainBody{
+    margin-top: 20px;
+}
+
+.sectionHead{
+    display: flex;
+    flex-direction: column;
+}
+
+.divProductHead{
+    color: #070707;
+    left: 0px;
+    align-items: center;    
+}
+
+.divProductHead h1{
+    gap: 10px;
+    color: #302b3a;
+    font-size: 40px;
+    font-family: Helvetica;
+}
+
+.divProductHead p{
+    
+    font-family: Gill Sans;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.contentImg{
+    background: rgba(127, 255, 212, 0.1);
+    padding: 10px;
+}
+
+.imgProduct{
+    max-width: 100%;
+    height: auto;
+}
+
+.buttonHead{
+    padding: 10px 20px;
+    font-size: large;
+    font-family: Helvetica;
+    
+    border: none;
+    background-color: #403a4e;
+    color: #f0f0f0;
+    cursor: pointer;
+
+}
