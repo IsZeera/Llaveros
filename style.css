@@ -34,7 +34,7 @@ body{
 .navListaHeader ul{
     display: flex;
     justify-content: center;
-    gap: 10px; 
+    gap: 20px; 
     padding: 0%;
 }
 
@@ -83,7 +83,7 @@ body{
 }
 
 .divProductHead p{
-    
+    letter-spacing: 1px;
     font-family: Gill Sans;
     font-size: 20px;
     gap: 10px;
@@ -92,12 +92,14 @@ body{
 .contentImg{
     background: rgba(127, 255, 212, 0.1);
     padding: 10px;
+    margin-bottom: 50px;
 }
 
 .imgProduct{
     max-width: 100%;
     height: auto;
 }
+
 
 .buttonHead{
     padding: 10px 20px;
@@ -113,7 +115,9 @@ body{
 
 
 .sectionProducts{
-display: flex;
+    width: 90%;
+    margin: 0 auto;
+
 }
 
 .divTitleProducts{
@@ -123,18 +127,57 @@ display: flex;
 
 .divTitleProducts h3{
     color: #3a3a3a;
-    font-size: 20px;
+    font-size: 16px;
     font-family: Gill Sans;
+    margin: 0%;
+    font-weight: 200;
+    letter-spacing: 1px;
 }
 
 .divTitleProducts h2{
-    color: #302b3a;
+    color: rgb(26, 26, 26);
     font-size: 30px;
     font-family: Helvetica;
+
+    margin: 0%;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+.divArticlesProducts{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.thisArticle{
+}
+
+.boxImg{
+    padding: 10px 30px;
+    background: rgba(179, 198, 255, 0.224);
+}
+
+.divInfoProduct{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenProduct h2{
+    margin: 0%;
+    font-size: 20px;
+}
+
+.contenProduct p{
+    margin: 0%;
 }
 
 .imgProductExp{
     max-width: 100%;
-    height: 300px;
+    height: auto;
 }
 
