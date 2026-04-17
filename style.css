@@ -52,6 +52,12 @@ body{
     position: relative;
 }
 
+.navListaHeader a:hover{
+    background-color: #403a4e38;
+    color: #000000;
+    transition: 0.3s;
+}
+
 .navListaHeader a::after{
     content: '';
     position: absolute;
@@ -120,6 +126,12 @@ body{
     cursor: pointer;
     margin: 20px 10px;
 
+}
+
+.buttonHead:hover{
+    background-color: #403a4e9c;
+    color: #f0f0f0;
+    transition: 0.3s;
 }
 
 

@@ -62,3 +62,19 @@ buscador.addEventListener("input", () => {
 
 
 
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImg");
+const closeModal = document.querySelector(".closeModal");
+
+document.addEventListener("click", (e) => {
+    
+    if(e.target.classList.contains("imgStyle")){
+        modal.style.display = "flex";
+        modalImg.src = e.target.src;
+    }
+    
+})
+
+closeModal.addEventListener("click", () => {
+    modal.style.display = "none";
+})
