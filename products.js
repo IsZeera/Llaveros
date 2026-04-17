@@ -1,6 +1,6 @@
 let llaveworks = [];
 
-fetch("/data.json") .then(response => {
+fetch("data.json") .then(response => {
     return response.json();
 }) .then(data => {
     llaveworks = data;    
