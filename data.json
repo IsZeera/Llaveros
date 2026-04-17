@@ -1,0 +1,86 @@
+[
+
+    {
+        "image" :"data/charizarFV.jpg",
+        "alt" : "",
+        "price" : "$ 2.000",
+        "title" : "Charizard, Pokémon de tipo Fuego/Volador",
+
+        "data":{
+            "especifico" : "pokemon",
+            "style" : "anime"
+        }
+    },
+
+    {
+        "image" :"data/llaveros.jpg",
+        "alt" : "",
+        "price" : "$ 2.000",
+        "title" : "Muchos llaveros de distintos estilos para vos",
+
+        "data":{
+            "especifico" : "variedad",
+            "style" : "animado"
+        }
+    },
+
+    {
+        "image" :"data/charmanderFV.jpg",
+        "alt" : "",
+        "price" : "$ 2.000",
+        "title" : "Charmander, Pokémon de tipo Fuego de la primera generación",
+
+        "data":{
+            "especifico" : "pokemon",
+            "style" : "anime"
+        }
+    },
+
+    {
+        "image" :"data/charizarFV.jpg",
+        "alt" : "",
+        "price" : "$ 2.000",
+        "title" : "Charizard, Pokémon de tipo Fuego/Volador",
+
+        "data":{
+            "especifico" : "pokemon",
+            "style" : "anime"
+        }
+    },
+
+    {
+        "image" :"data/llaveros.jpg",
+        "alt" : "",
+        "price" : "$ 2.000",
+        "title" : "Muchos llaveros de distintos estilos para vos",
+
+        "data":{
+            "especifico" : "variedad",
+            "style" : "animado"
+        }
+    },
+
+    {
+        "image" :"data/charmanderFV.jpg",
+        "alt" : "",
+        "price" : "$ 2.000",
+        "title" : "Charmander, Pokémon de tipo Fuego de la primera generación",
+
+        "data":{
+            "especifico" : "pokemon",
+            "style" : "anime"
+        }
+    },
+
+    {
+        "image" :"data/kuclesFV.jpg",
+        "alt" : "",
+        "price" : "$ 2.000",
+        "title" : "Charmander, Pokémon de tipo Fuego de la primera generación",
+
+        "data":{
+            "especifico" : "sonic",
+            "style" : "anime"
+        }
+    }
+]
