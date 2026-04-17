@@ -248,6 +248,9 @@ main {
     font-weight: 500;
     font-family: Helvetica;
     text-decoration: none;
+    background-color: #003729;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 
