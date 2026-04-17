@@ -113,8 +113,9 @@ main {
     margin: 0 auto;
     height: 300px;
     cursor: pointer;
-    background: rgba(143, 229, 255, 0.335);
+    background: rgba(26, 50, 57, 0.129);
     padding: 5px;
+    border-radius: 5px;
 }
 .imgProduct{
     width: 100%;

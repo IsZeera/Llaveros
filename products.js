@@ -68,7 +68,7 @@ const closeModal = document.querySelector(".closeModal");
 
 document.addEventListener("click", (e) => {
     
-    if(e.target.classList.contains("imgStyle")){
+    if(e.target.classList.contains("imgProduct")){
         modal.style.display = "flex";
         modalImg.src = e.target.src;
     }
