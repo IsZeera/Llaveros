@@ -161,6 +161,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 5px 0px 50px 0px ;
+    margin: 0px 100px 0px 100px;
 }
 
 .thisArticle{
@@ -205,3 +207,42 @@ body{
     height: auto;
 }
 
+.footerBody{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBody p{
+    color: #3a3a3a;
+    font-size: 14px;
+    font-family: Gill Sans;
+    margin: 0%;
+}
+
+.compraOculta{
+    display: none;
+    
+}
+
+.compraOculta.active{
+    display: block;
+    position: absolute;
+
+    top: 80px;
+    right: 80px;
+    background-color: rgba(0, 0, 0, 0.685);
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.compraOculta a{
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica;
+    text-decoration: none;
+}

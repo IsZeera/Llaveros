@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.headerBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgba(237, 242, 255, 0.683);
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+
+}
+
+.logoHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoHeader img{
+    margin-left: 20px;
+    width: 150px;
+}
+
+.navListaHeader{
+    margin-right: 50px;
+
+}
+
+.navListaHeader ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    padding: 0%;
+}
+
+.navListaHeader li{
+    list-style: none;
+}
+
+.navListaHeader a{
+    display: inline-block;
+    text-decoration: none;
+    color: #070707;
+    font-size: large;
+    position: relative;
+}
+
+.navListaHeader a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #07070757;
+}
+
+main {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.compraOculta{
+    display: none;
+    
+}
+
+.compraOculta.active{
+    display: block;
+    position: absolute;
+
+    top: 80px;
+    right: 80px;
+    background-color: rgba(0, 0, 0, 0.685);
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.compraOculta a{
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica;
+    text-decoration: none;
+}
