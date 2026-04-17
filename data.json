@@ -3,7 +3,7 @@
     {
         "image" :"data/charizarFV.jpg",
         "alt" : "",
-        "price" : "$ 2.000",
+        "price" : "$ 2.200",
         "title" : "Charizard, Pokémon de tipo Fuego/Volador",
 
         "data":{
@@ -15,7 +15,7 @@
     {
         "image" :"data/llaveros.jpg",
         "alt" : "",
-        "price" : "$ 2.000",
+        "price" : "$ 1.300",
         "title" : "Muchos llaveros de distintos estilos para vos",
 
         "data":{
@@ -39,7 +39,7 @@
     {
         "image" :"data/charizarFV.jpg",
         "alt" : "",
-        "price" : "$ 2.000",
+        "price" : "$ 2.200",
         "title" : "Charizard, Pokémon de tipo Fuego/Volador",
 
         "data":{
@@ -51,7 +51,7 @@
     {
         "image" :"data/llaveros.jpg",
         "alt" : "",
-        "price" : "$ 2.000",
+        "price" : "$ 1.300",
         "title" : "Muchos llaveros de distintos estilos para vos",
 
         "data":{
@@ -73,10 +73,10 @@
     },
 
     {
-        "image" :"data/kuclesFV.jpg",
+        "image" :"data/knuckles.jpg",
         "alt" : "",
-        "price" : "$ 2.000",
-        "title" : "Charmander, Pokémon de tipo Fuego de la primera generación",
+        "price" : "$ 1.500",
+        "title" : "Knuckles, personaje de la franquicia Sonic",
 
         "data":{
             "especifico" : "sonic",

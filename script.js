@@ -53,6 +53,7 @@ buscador.addEventListener("input", () => {
 
     const filtrados = llaveworks.filter(llave =>
         llave.data.especifico.toLowerCase().includes(texto) ||
+        llave.title.toLowerCase().includes(texto) ||
         llave.data.style.toLowerCase().includes(texto) 
     );
 
