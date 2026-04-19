@@ -28,6 +28,7 @@ body{
     width: 150px;
 }
 
+
 .navListaHeader{
     margin-right: 50px;
 
@@ -68,6 +69,21 @@ body{
     background-color: #07070757;
 }
 
+@media (width> 1000px) {
+    .navListaHeader ul{
+        gap: 30px; 
+        margin-right: 50px;
+    }
+    .navListaHeader a{
+        font-size: 28px;
+    }
+
+    .logoHeader img{
+        width: 250px;
+        margin-left: 50px;
+    }
+}
+
 .sectionHead{
     display: flex;
     flex-direction: column;
@@ -100,19 +116,26 @@ body{
 }
 
 .contentImg{
-    background: rgba(127, 174, 255, 0.15);
+    background: rgba(127, 174, 255, 0.149);
     padding: 20px;
     margin: 10px 10px 50px 10px;
+    border-radius: 10px;
+
 }
 
 .imgProduct{
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
+
 .mainBody{
-    margin-top: 100px;
-    background: #38385c25;
+    padding-top: 50px;
+    margin-top: 50px;
+    background: #08083dd3;
+    box-shadow: #000000 0px 0px 5px;
+    
 }
 
 .buttonHead{
@@ -120,6 +143,7 @@ body{
     font-size: large;
     font-family: Helvetica;
     
+    box-shadow: #000000 0px 0px 5px;
     border: none;
     background-color: #403a4e;
     color: #f0f0f0;
@@ -130,9 +154,47 @@ body{
 
 .buttonHead:hover{
     background-color: #403a4e9c;
-    color: #f0f0f0;
+    color: #000000;
     transition: 0.3s;
 }
+
+
+@media (width> 1000px) {
+    .sectionHead{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .divProductHead{
+        margin-left: 50px;
+    }
+    .divProductHead h1{
+        font-size: 50px;
+    }
+    .divProductHead p{
+        font-size: 28px;
+    }
+
+    .buttonHead{
+        margin: 100px 0px 0px 100px;
+        padding: 20px 30px;
+        font-size: 28px;
+        font-weight: 600;
+
+        
+    }
+
+    .imgProduct{
+        
+        border-radius: 10px;
+        box-shadow: #000000 0px 0px 10px;
+    }
+
+}
+
+
+
 
 
 .sectionProducts{
@@ -148,8 +210,8 @@ body{
 }
 
 .divTitleProducts h3{
-    color: #3a3a3a;
-    font-size: 16px;
+    color: #bdbdbd;
+    font-size: 24px;
     font-family: Gill Sans;
     margin: 10px 0px 0px 30px;
     font-weight: 200;
@@ -157,7 +219,7 @@ body{
 }
 
 .divTitleProducts h2{
-    color: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: Helvetica;
 
@@ -178,10 +240,14 @@ body{
 }
 
 
+
+
 .boxImg{
     margin: 0px 20px 0px 20px;
     padding: 10px 30px;
     background: rgba(179, 198, 255, 0.298);
+    border-radius: 5px;
+    box-shadow: #000000 0px 0px 10px;
 }
 
 .divInfoProduct{
@@ -192,28 +258,30 @@ body{
 
 .contenProduct h2{
     margin: 0%;
-    margin: 0px 0px 0px 30px;
+    margin: 10px 0px 0px 10px;
     font-size: 20px;
-    color: #3a3a3a;
+    color: #ffffff;
 }
 
 .contenProduct p{
     margin: 0%;
-    margin: 5px 0px 0px 50px;
-    color: #3a3a3a;
+    margin: 5px 0px 5px 20px;
+    color: #dadada;
 }
 
 
 .priceProduct h3{
     margin: 0%;
-    margin: 0px 30px 0px 0px;
-    color: #403a4e;
-    font-size: 18px;
+    margin: 5px 10px 0px 0px;
+    color: #ffffff;
+    font-size: 28px;
+
 }
 
 .imgProductExp{
     max-width: 100%;
     height: auto;
+    border-radius: 2px;
 }
 
 .footerBody{
