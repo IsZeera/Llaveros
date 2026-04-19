@@ -75,11 +75,11 @@ body{
         margin-right: 50px;
     }
     .navListaHeader a{
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .logoHeader img{
-        width: 250px;
+        width: 200px;
         margin-left: 50px;
     }
 }
@@ -254,14 +254,7 @@ body{
     box-shadow: #000000 0px 0px 10px;
 }
 
-@media (width> 1000px) {
-    .divArticlesProducts{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 0px 5px 0px 5px;
-    }
-}
+
 
 .divInfoProduct{
     display: flex;
@@ -311,6 +304,27 @@ body{
     font-family: Gill Sans;
     margin: 0%;
 }
+
+@media (width> 1000px) {
+    .divArticlesProducts{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px 5px 0px 5px;
+    }
+    .boxImg{
+        width: 600px;
+    }
+
+    .divInfoProduct h2{
+        font-size: 24px;        
+    }
+    .divInfoProduct p{
+        font-size: 18px;
+    }
+}
+
+
 
 @media (width> 1000px) {
     .footerBody p{
